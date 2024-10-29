@@ -14,7 +14,7 @@ const OurLovestory = () => {
         <>
             <section className="love_story section-padding" id="story">
                 <Container>                    
-                    <Title sec_title={'Our Sweet Story'}/>
+                    <Title/>
                     <div className="row">
                         <div className="col col-xs-12">
                             <div className="story-timeline">
@@ -22,14 +22,13 @@ const OurLovestory = () => {
                                 <div className="row order_column">
                                     <div className="col col-lg-6 col-12 wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="1.5s">
                                         <div className="story-text right-align-text">
-                                            <h3>First time we meet</h3>
-                                            <span className="date">Feb 06,2016</span>
-                                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                                            <h3>¿Cuándo?</h3>
+                                            <span className="date">Sábado 16 de Noviembre de 2024</span>                                        
                                         </div>
                                     </div>
                                     <div className="col col-lg-6 col-12">
                                         <div className="img-holder">
-                                            <Image src={require('../assets/images/our_story/1.jpg')} alt="image" className="img-fluid img img-responsive wow fadeInLeft" data-wow-delay="0.4s" data-wow-duration="1.5s"/>
+                                            <Image src={require('../assets/images/our_story/1.png')} alt="image" className="img-fluid img img-responsive wow fadeInLeft" data-wow-delay="0.4s" data-wow-duration="1.5s"/>
                                             <div className="story-shape-img">
                                                 <Image src={require('../assets/images/our_story/shape.png')} alt="image" className='img-fluid'/>
                                             </div>
