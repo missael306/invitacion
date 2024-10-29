@@ -1,0 +1,188 @@
+/*-------------------------
+    RSVP CSS START
+---------------------------*/
+  .rsvp_section .content_wrapper {
+    position: relative;    
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 0px 2px 16.8px 3.2px rgba(0, 0, 0, 0.08);
+    background: #fff;
+  }
+  .rsvp_section .content_wrapper .rsvpForm_area {
+    padding: 60px 40px;
+    border: 30px solid #cde0ef;
+    position: relative;
+    z-index: 9;
+  }
+  .rsvp_section .bg_1{
+    margin-right: -65px;
+    z-index:99;
+  }
+  .rsvp_section .bg_2{
+    margin-left: -65px;
+    z-index:99;
+  }
+  .rsvp_section .content_wrapper .rsvpForm_area .form-field{
+    margin-bottom: 20px;
+  }
+  .rsvp_section .content_wrapper .rsvpForm_area .errorMessage{
+    color: red;
+    font-size: 16px;
+  }
+  .rsvp_section .content_wrapper .rsvpForm_area .form-control {
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    border: 0;
+    padding-left: 0;
+    border-bottom: 1px solid #cde0ef;
+    background: transparent;
+    border-radius: 0;
+    color: #738ea5;
+    font-size: 18px;
+  }
+  .rsvp_section .content_wrapper .rsvpForm_area .form-control:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  .rsvp_section .content_wrapper .rsvpForm_area .form-control:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #738ea5;
+  }
+  .rsvp_section .content_wrapper .rsvpForm_area .form-control::-moz-placeholder {
+    color: #738ea5;
+  }
+  .rsvp_section .content_wrapper .rsvpForm_area .form-control::placeholder {
+    color: #738ea5;
+  }
+  .rsvp_section .content_wrapper .rsvpForm_area select.form-control {
+    color: #738ea5;
+    -webkit-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    -moz-appearance: none;
+    background: transparent url('../images/icons/select-icon.png') no-repeat calc(100% - 15px) center;
+    position: relative;
+  }
+  .rsvp_section .content_wrapper .rsvpForm_area .nice-select {
+    padding-left: 10px;
+  }
+  .rsvp_section .content_wrapper .rsvpForm_area .nice-select:after {
+    border-bottom: 1px solid #738ea5;
+    border-right: 1px solid #738ea5;
+    width: 7px;
+    height: 7px;
+  }
+  .rsvp_section .content_wrapper .rsvpForm_area .select.last {
+    margin-bottom: 50px;
+  }
+  .rsvp_section .content_wrapper .rsvpForm_area .submit-area {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .rsvp_section .content_wrapper .rsvpForm_area .radio-buttons {
+    display: flex;
+  }
+
+  .rsvp_section .radio-buttons [type=radio]:checked+label, 
+  .rsvp_section .radio-buttons [type=radio]:not(:checked)+label{
+    color:#738ea5;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 20px;
+    padding-left: 28px;
+    position: relative;
+    font-size: 18px;
+  }  
+  .rsvp_section .radio-buttons [type=radio] +label:before{
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    content: "";
+    height: 18px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 18px;
+  }
+  .rsvp_section .radio-buttons [type=radio] +label:after{
+    background: #738ea5;
+    border-radius: 100%;
+    content: "";
+    height: 12px;
+    left: 3px;
+    position: absolute;
+    top: 3px;
+    transition: all .2s ease;
+    width: 12px; 
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 
+  .rsvp_section .radio-buttons [type=radio]:checked + label:after{
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  .rsvp_section .radio-buttons p + p{
+    margin-left: 30px;
+  }
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  @media(max-width:1199px){
+    .rsvp_section .content_wrapper .rsvpForm_area{
+      padding: 15px 10px;
+    }
+  }
+  @media(max-width:767px){
+    section.rsvp_section {
+      padding: 50px 0;
+    }
+  }
+  @media(max-width:575px){
+    
+    .rsvp_section .content_wrapper .rsvpForm_area{
+      border-width: 10px;
+    }
+  }
+  @media(max-width:480px){
+    .rsvp_section .content_wrapper .rsvpForm_area .radio-buttons{
+      display: block;
+    }
+    .rsvp_section .radio-buttons p + p{
+      margin: 0;
+      margin-top: 15px;
+      border-bottom: 1px solid #cde0ef;
+      padding-bottom: 15px;
+    }
+    .wpo-section-title-s2 .section-title-img{
+      max-width:unset !important;
+      width: 100%;
+    }
+    .wpo-section-title-s2 .section-title-img::before, 
+    .wpo-section-title-s2 .section-title-img::after{
+      width: 40% !important;      
+    }
+    .wpo-section-title-s2 .section-title-img::before{
+      left:20px !important;
+    }
+    .wpo-section-title-s2 .section-title-img::after{
+      right:20px !important;
+    }
+    .rsvp_section .content_wrapper .rsvpForm_area .submit-area{
+      margin-top: 25px !important;
+    }
+  }
+  @media(max-width:380px){
+    .wpo-section-title-s2 .section-title-img::before, 
+    .wpo-section-title-s2 .section-title-img::after{
+      width: 35% !important;      
+    }
+  }
+/*-------------------------
+    RSVP CSS END
+---------------------------*/
+  

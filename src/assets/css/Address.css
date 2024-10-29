@@ -1,0 +1,97 @@
+/*---------------------------
+    ADDRESS SEC CSS START
+----------------------------*/
+  .address_section {
+    padding-bottom: 90px;
+  }
+  .address_section .wpo-event-wrap .wpo-event-item {
+    padding: 20px;
+    border: 2px solid #b0c7d9;
+    position: relative;
+    margin-bottom: 40px;
+  }
+  .address_section .wpo-event-wrap .wpo-event-item .wpo-event-text {    
+    padding: 30px;
+    text-align: center;
+    background: #edf3f8;
+  }
+  .address_section .wpo-event-wrap .wpo-event-item .wpo-event-text h2 {
+    font-family: "Eyesome";
+    display: block;
+    font-size: 35px;
+    font-weight: 400;        
+    position: relative;
+    line-height: 1;
+    padding: 0;
+    margin-bottom:20px;
+    font-size: 28px;
+  }
+  .address_section .wpo-event-wrap .wpo-event-item .wpo-event-text ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .address_section .wpo-event-wrap .wpo-event-item .wpo-event-text ul li {
+    margin-bottom: 15px;        
+    color: #848892;
+    font-size: 16px;
+    line-height:25px;
+  }
+  .address_section .wpo-event-wrap .wpo-event-item .wpo-event-text ul li:last-child {
+    margin-bottom: 0;
+  }
+  .address_section .wpo-event-wrap .wpo-event-item .wpo-event-text ul li a {
+    font-weight: 700;
+    color: #8facc2;
+    position: relative;
+    display: inline-block;    
+    margin-top: 0;
+    text-decoration:none;
+  }
+  .address_section .wpo-event-wrap .wpo-event-item .wpo-event-text ul li a:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    content: "";
+    background: #8facc2;
+  }
+  .address_section .wpo-event-wrap .wpo-event-item .event-shape-1 {
+    position: absolute;
+    right: -5px;
+    top: -20px;
+    background: #fff;
+    padding: 5px;
+  }
+  .address_section .wpo-event-wrap .wpo-event-item .event-shape-2 {
+    position: absolute;
+    left: -5px;
+    bottom: -20px;
+    background: #fff;
+    padding: 5px;
+  }
+
+  @media (min-width: 576px){
+      .modal.locationModal .modal-dialog{
+          max-width:850px;
+      }
+      
+  }      
+  @media (max-width: 575px){
+    .modal.locationModal .modal-dialog{
+      margin: 0;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      width: 90%;
+    }
+  }
+  @media (max-width: 480px){
+    .address_section .wpo-event-wrap .wpo-event-item .wpo-event-text ul li{
+      font-size: 15px;
+    }
+  }
+/*---------------------------
+    ADDRESS SEC CSS END
+----------------------------*/

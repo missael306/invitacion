@@ -1,0 +1,260 @@
+/*---------------------------
+  WEDDING BANNER CSS START
+----------------------------*/
+  .wedding_banner {
+    position: relative;  
+    height:100vh;
+  }
+  .wedding_banner:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.1);
+    z-index: 1;
+  }
+  .wedding_banner .wedding_announcement {            
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+  }  
+  .wedding_banner .wedding_announcement {
+    width: 80%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }  
+  .carousel-item{
+    height:100vh;
+  }
+  .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+  }
+  .wedding_banner .wedding_announcement h2 {
+    font-family:"Eyesome";
+    font-size: 100px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  .wedding_banner .wedding_announcement p {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 400;
+    margin: 0;
+  }
+  .wedding_banner .wedding_announcement .wpo-wedding-date {
+    display: inline-block;
+    margin-top: 60px;
+  }
+  .wedding_banner .wedding_announcement .wpo-wedding-date #clock > div {
+    width: 200px;
+    height: 163px;
+    background: url("../images/slider/countdown_bg.svg") center center/cover no-repeat local;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.5));
+  }  
+  .wedding_banner .wedding_announcement #clock > div + div {
+    margin-left: 50px;
+  }
+  .wedding_banner .wedding_announcement .wpo-wedding-date #clock span {
+    color: #000;
+    font-size: 18px;
+  }
+  .wedding_banner .wedding_announcement .wpo-wedding-date #clock .time {
+    font-family: Eyesome;
+    font-size: 45px;    
+    line-height: 1;    
+    color: #000;
+}
+.loader span {  
+  text-shadow: 0 0 0 #00000050;
+  animation: loading 3.5s ease-in-out infinite alternate;
+}
+
+@keyframes loading {
+  0% {
+    text-shadow: 20px 0 70px #fff;    
+  }
+}
+.loader span:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.loader span:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.loader span:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.loader span:nth-child(5) {
+  animation-delay: 0.4s;
+}
+.loader span:nth-child(6) {
+  animation-delay: 0.5s;
+}
+.loader span:nth-child(7) {
+  animation-delay: 0.6s;
+}
+.loader span:nth-child(8) {
+  animation-delay: 0.7s;
+}
+.loader span:nth-child(9) {
+  animation-delay: 0.8s;
+}
+.loader span:nth-child(10) {
+  animation-delay: 0.9s;
+}
+.loader span:nth-child(11) {
+  animation-delay: 1s;
+}
+.loader span:nth-child(12) {
+  animation-delay: 1.1s;
+}
+.loader span:nth-child(13) {
+  animation-delay: 1.2s;
+}
+.loader span:nth-child(14) {
+  animation-delay: 1.3s;
+}
+.loader span:nth-child(15) {
+  animation-delay: 1.4s;
+}
+.loader span:nth-child(16) {
+  animation-delay: 1.5s;
+}
+.loader span:nth-child(17) {
+  animation-delay: 1.6s;
+}
+.loader span:nth-child(18) {
+  animation-delay: 1.7s;
+}
+.loader span:nth-child(19) {
+  animation-delay: 1.8s;
+}
+.loader span:nth-child(20) {
+  animation-delay: 1.9s;
+}
+.loader span:nth-child(21) {
+  animation-delay: 2s;
+}
+.loader span:nth-child(22) {
+  animation-delay: 2.1s;
+}
+.loader span:nth-child(23) {
+  animation-delay: 2.2s;
+}
+.loader span:nth-child(24) {
+  animation-delay: 2.3s;
+}
+.loader span:nth-child(25) {
+  animation-delay: 2.4s;
+}
+
+@media(max-width:1399px){
+  .wedding_banner .wedding_announcement #clock > div + div{
+    margin: 0;
+  }
+}
+@media(max-width:1199px){
+  .wedding_banner .wedding_announcement{
+    width: 100%;
+    top: 55%;
+  }
+  .wedding_banner .wedding_announcement .wpo-wedding-date{
+    margin-top: 30px;
+  }
+  .wedding_banner .wedding_announcement .wpo-wedding-date #clock > div{
+    width: 150px;
+    height: 130px;
+  }
+  .wedding_banner .wedding_announcement h2{
+    font-size: 85px;
+    margin-bottom: 15px;
+  }
+  .wedding_banner .wedding_announcement p{
+    font-size: 25px;
+  }
+  .wedding_banner .wedding_announcement .wpo-wedding-date{
+    margin-top: 15px;
+  }
+  .wedding_banner .wedding_announcement .wpo-wedding-date #clock .time{
+    font-size: 40px;
+  }
+  .wedding_banner .wedding_announcement .wpo-wedding-date #clock span{
+    font-size: 16px;
+  }
+}
+@media(max-width:767px){ 
+  *[class="wow"]{
+    animation:none !important;
+  }
+  .wedding_banner .wedding_announcement {    
+    top: 50%;
+  }
+  .wedding_banner .wedding_announcement .clock-grids > div{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .wedding_banner .wedding_announcement h2{
+    font-size: 70px;
+  }
+  .wedding_banner .wedding_announcement p{
+    font-size: 22px;
+  }
+  .wedding_banner .wedding_announcement .wpo-wedding-date #clock > div{
+    width: 130px;
+    height: 110px;
+  }
+  .wedding_banner .wedding_announcement .wpo-wedding-date #clock .time{
+    font-size: 30px;
+  }
+  .wedding_banner .wedding_announcement .wpo-wedding-date #clock span{
+    font-size: 14px;
+  }
+}
+@media(max-width:575px){
+  @keyframes loading {
+    0% {
+      text-shadow: 10px 0 35px #fff;    
+    }
+  }
+  .wedding_banner:after{
+    background-color: rgba(0,0,0,0.3);
+  }
+  .wedding_banner .carousel-control-prev, 
+  .wedding_banner .carousel-control-next{
+    display: none;
+  }
+  .wedding_banner .wedding_announcement .wpo-wedding-date{
+    margin-top: 10px;
+  }
+  .wedding_banner .wedding_announcement h2 {
+    font-size: 60px;
+  }
+  .wedding_banner .wedding_announcement p {
+    font-size: 18px;
+  }
+  .wedding_banner .wedding_announcement .clock-grids > div{
+    gap: 0;
+  }
+  .wedding_banner .wedding_announcement .wpo-wedding-date #clock > div {    
+    width: 115px;
+    height: 90px;
+  }
+}
+@media(max-width:420px){
+  .wedding_banner .wedding_announcement h2 {
+    font-size: 50px;
+  }
+}
+/*---------------------------
+  WEDDING BANNER CSS END
+----------------------------*/

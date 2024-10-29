@@ -1,0 +1,88 @@
+/*---------------------
+    HEADER CSS START
+----------------------*/
+.header {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 999;        
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;    
+    background-color:var(--theme-color);
+    -webkit-animation: smoothScroll 1s forwards;
+    animation: smoothScroll 1s forwards;
+    z-index:99999 !important;
+}
+@keyframes smoothScroll {
+    0% {
+        transform: translateY(-40px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+.header .navbar-nav .nav-link {
+    font-size: 16px !important;
+    padding: 25px 20px !important;
+    display: block !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+    position: relative !important;    
+    text-transform: uppercase !important;
+    transition: all 0.5s !important;
+}
+@media(max-width:1199px){
+    .navbar-light .navbar-brand img{
+        width: 50%;
+    }
+    .header .navbar-nav .nav-link{
+        padding: 15px 20px !important;
+    }
+    .navbar  a.navbar-brand{
+        width: 50%;
+    }    
+}
+@media(max-width:991px){
+    .navbar-light .navbar-toggler {
+        border-color: rgba(0,0,0,0.5) !important;
+        filter: invert(1) !important;
+        font-size: 18px !important;
+    }
+    .header.menu_open{
+        background-color:var(--theme-color);
+        height:100%;
+        z-index:999999999999999999999999 !important;
+    }
+    .header.fixed  a.navbar-brand{
+        padding: 0;
+        width: 40%;
+    }
+    .header.menu_open .navbar-nav{
+        overflow-y: auto;
+        height:100vh;        
+        padding-bottom: 100px;
+    }
+}
+@media(max-width:767px){
+    .navbar-light .navbar-brand img {
+        width: 60%;
+    }
+}
+@media(max-width:575px){
+    .navbar-light .navbar-brand img {
+        width:140px;
+    }
+}
+@media(max-width:420px){    
+    .wedding_banner .wedding_announcement .wpo-wedding-date #clock > div {
+        width: 135px;
+        height: 95px;
+    }
+}
+/*---------------------
+    HEADER CSS END
+----------------------*/

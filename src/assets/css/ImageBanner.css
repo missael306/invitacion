@@ -1,0 +1,47 @@
+/*------------------------------
+    CELEBRATE BANNER CSS START
+-------------------------------*/
+
+.img_banner{   
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 125px 0;
+    margin-top: 75px;
+    position: relative;
+    z-index: 1;
+}
+.img_banner:before {
+    background: rgba(0,0,0,0.8);
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: .35;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -9;
+}
+.img_banner .textContent h2{
+    color: #fff;
+    font-size: 75px;
+    font-size: calc(28px + (75 - 28) * ((100vw - 320px) / (1920 - 320)));
+    margin:0;
+    font-family: Eyesome;
+    font-weight: 400;
+}
+@media(max-width:991px){
+    .img_banner{   
+        margin-top: 30px;
+        padding:80px 0;
+    }
+}
+@media(max-width:575px){
+    .img_banner{           
+        padding:60px 0;
+        margin: 0;
+    }
+}
+/*------------------------------
+    CELEBRATE BANNER CSS END
+-------------------------------*/

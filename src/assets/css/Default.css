@@ -1,0 +1,128 @@
+/*-------------------------
+    Default CSS START
+---------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+@font-face {
+  font-family: 'Donalia';
+  src: url('../fonts/Donalia.otf');
+  src: url('../fonts/Donalia.ttf')  format('truetype'),
+}
+
+@font-face {
+  font-family: 'Eyesome';
+  src: url('../fonts/eyesome-duo-script.otf');  
+}
+
+*{
+  box-sizing:border-box;
+}
+body{
+  font-family: 'Jost', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;  
+  overflow-x: hidden;
+  color: #848892;
+  background-color: #fff;
+  scroll-behavior: smooth;
+  overflow-x: hidden !important
+}
+section{
+	overflow: hidden;
+}
+/*-------------------------
+    Default CSS END
+---------------------------*/
+
+/*---------------------------
+    THEME COLORS START
+----------------------------*/
+:root{
+  --theme-color:#738ea5;
+}
+/*---------------------------
+    THEME COLORS END
+----------------------------*/
+
+
+/*---------------------------
+    LAYOUT COMMON CSS START
+----------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+  color: #002642;
+  font-family: 'Jost', sans-serif;
+  font-weight: 600;
+}
+.section-padding {
+  padding: 120px 0;
+}
+@media(max-width:1199px){
+	.section-padding {
+		padding: 80px 0;
+	}
+}
+.pt-160 {
+  padding-top: 160px;
+}
+
+
+/* THEME-BUTTON */
+.theme-btn{
+  background:#edf3f8;
+  color: #002642;
+  display: inline-block;
+  font-weight: 600;
+  padding: 15px 45px;
+  font-size: 15px;
+  border: 0;
+  text-transform: capitalize;  
+  z-index: 1;
+  position: relative;
+  font-size: 16px;
+  font-size: 1.0666666667rem;
+  transition: all 0.3s;
+  text-decoration:none;
+}
+.theme-btn:after {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  width: 100%;
+  height: 100%;
+  content: "";
+  border: 1px solid #edf3f8;
+  z-index: -1;
+  transition: all 0.3s;
+}
+.theme-btn:hover{
+  background: #86a0b6;
+  color: #fff;
+}
+
+.modal{
+  z-index:999999999999999 !important;
+}
+@media(max-width:767px){
+	.theme-btn{
+		padding: 13px 35px;
+	}
+}
+@media(max-width:575px){
+	.theme-btn{
+		padding: 10px 25px;
+	}
+}
+
+.fancybox__container {
+    z-index: 99999999999 !important;
+}
+@media(max-width:767px){
+  p[class="wow"]{
+    animation-duration:0.5s !important;
+  }
+}
+/*---------------------------
+    LAYOUT COMMON CSS END
+----------------------------*/
