@@ -34,8 +34,7 @@ const Intro = () => {
                         <div className="col-lg-3 text-center text-lg-start groom wow fadeInDown" data-wow-delay="0.1s" data-wow-duration="1.2s">
                             <h3>Mis padrinos</h3>
                             <p>Emilia Conde Flores</p>
-                            <p>Jorge Campos Fuentes <FaCross /></p>
-                            {/* TODO: Agregar una cruz catolica  */}
+                            <p>Jorge Campos Fuentes <FaCross /></p>                            
                         </div>
                     </div>
                 </Container>

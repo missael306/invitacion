@@ -12,7 +12,7 @@ const OurLovestory = () => {
     }, []); 
     return(
         <>
-            <section className="love_story section-padding" id="story">
+            <section className="love_story section-padding" id="story" >
                 <Container>                    
                     <Title/>
                     <div className="row">
@@ -27,12 +27,7 @@ const OurLovestory = () => {
                                         </div>
                                     </div>
                                     <div className="col col-lg-6 col-12">
-                                        <div className="img-holder">
-                                            <Image src={require('../assets/images/our_story/1.png')} alt="image" className="img-fluid img img-responsive wow fadeInLeft" data-wow-delay="0.4s" data-wow-duration="1.5s"/>
-                                            <div className="story-shape-img">
-                                                <Image src={require('../assets/images/our_story/shape.png')} alt="image" className='img-fluid'/>
-                                            </div>
-                                        </div>
+                                            <Image src={require('../assets/images/calendario.png')} alt="image" className="img-fluid img img-responsive wow fadeInLeft" data-wow-delay="0.4s" data-wow-duration="1.5s"/>                                                                                    
                                     </div>
                                 </div>
                                 <div className="row">

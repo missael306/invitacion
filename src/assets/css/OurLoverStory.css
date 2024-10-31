@@ -213,7 +213,7 @@
   }
   @media(max-width:991px){
     section.love_story {
-      padding:50px 0 0 0;
+      padding: 0;
     }
     .love_story .shape-1,
     .love_story .shape-2{
@@ -267,8 +267,12 @@
       width:250px;
       height:250px;
     }
-  }
+  }  
 /*-----------------------------
     OUR LOVE STORY CSS END
 ------------------------------*/
-  
+.img-40{
+  width: 40%;
+  margin: 0 auto;
+  display: block;
+}
