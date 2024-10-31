@@ -21,15 +21,14 @@ import '../assets/css/Custom.css';
 const Home = () =>{    
     return(
         <>
-            <Loader loader={true}/>
+            {/* <Loader loader={true}/>
             <Fragment>
                 <Presentation/>
-            </Fragment>
-            {/* <Loader loader={true}/>
+            </Fragment> */}            
             <Fragment>   
                 <Presentation/>         
                 <Header/>
-                <Banner/>
+                {/* <Banner/> */}
                 <Intro/>
                 <OurLovestory/>
                 <ImgBanner/>            
@@ -37,7 +36,7 @@ const Home = () =>{
                 <Gallery/>
                 <Address/>
                 <Footer/>                      
-            </Fragment> */}
+            </Fragment>
         </>
     )
 }
