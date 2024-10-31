@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import SimpleReactValidator from 'simple-react-validator';
 import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
@@ -49,21 +49,32 @@ const RSVP = (props) => {
             validator.showMessages();
         }
     };
-    return(
+    return (
         <>
+            <section>
+                <Container>
+                    <div className="row align-items-center z_index">
+                        <div className="col-lg-6 text-center wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.2s">
+                            <div className="middle-couple-pic">
+                                <Image src={require('../assets/images/campi12.png')} alt="image" className='img-fluid' />
+                            </div>
+                        </div>
+                    </div>
+                </Container>
+            </section>
             <section className="rsvp_section section-padding pb-0" id="rspv">
                 <Container>
                     <div className="row justify-content-center">
                         <div className="d-none col-md-3 col-xl-3 d-lg-flex align-items-end">
                             <div className="bg_1">
-                                <Image src={require('../assets/images/rsvp/1.png')} alt="image" className="img-fluid  wow fadeInLeft" data-wow-delay="0.8s" data-wow-duration="1.5s"/>
+                                <Image src={require('../assets/images/rsvp/1.png')} alt="image" className="img-fluid  wow fadeInLeft" data-wow-delay="0.8s" data-wow-duration="1.5s" />
                             </div>
                         </div>
-                
+
                         <div className="col-lg-6 col-xl-6">
                             <div className="content_wrapper">
                                 <div className="rsvpForm_area">
-                                    <Title sec_title={'Are you attending?'}/>
+                                    <Title sec_title={'Are you attending?'} />
                                     <form onSubmit={(e) => submitHandler(e)} className="contact-validation-active" >
                                         <div className="form-field">
                                             <input
@@ -89,11 +100,11 @@ const RSVP = (props) => {
                                         </div>
                                         <div className="form-field radio-buttons">
                                             <p className="mb-0">
-                                                <input type="radio" id="attend" name="radio-group" defaultChecked  className="d-none"/>
+                                                <input type="radio" id="attend" name="radio-group" defaultChecked className="d-none" />
                                                 <label htmlFor="attend">Yes, I will be there</label>
                                             </p>
                                             <p className="mb-0">
-                                                <input type="radio" id="not" name="radio-group" className="d-none"/>
+                                                <input type="radio" id="not" name="radio-group" className="d-none" />
                                                 <label htmlFor="not">Sorry, I can’t come</label>
                                             </p>
                                         </div>
@@ -147,12 +158,12 @@ const RSVP = (props) => {
                                         </div>
                                     </form >
                                     <div className="border-style"></div>
-                                </div>                                
+                                </div>
                             </div>
                         </div>
                         <div className="d-none d-lg-block col-md-3 col-xl-3">
                             <div className="bg_2">
-                                <Image src={require('../assets/images/rsvp/2.png')} alt="image" className="img-fluid"/>
+                                <Image src={require('../assets/images/rsvp/2.png')} alt="image" className="img-fluid" />
                             </div>
                         </div>
                     </div>

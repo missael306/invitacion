@@ -232,9 +232,8 @@
       margin: 0;
       padding: 0;
     }
-    .love_story .story-timeline .story-text{
-      background: rgba(134, 160, 182, 0.05);
-      padding: 35px 25px !important;
+    .love_story .story-timeline .story-text{      
+      padding: 15px 25px !important;
       text-align: center;
       margin-top: 15px !important;
     }

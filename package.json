@@ -1,6 +1,6 @@
 {
   "name": "WedLove",
-  "homepage": "https://codextheme.codexperts.in/WedLove",
+  "homepage": "https://missael306.github.io/prueba",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -49,5 +49,5 @@
   },
   "devDependencies": {
     "eslint-plugin-react": "^7.30.1"
-  }
+  }  
 }

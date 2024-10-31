@@ -14,9 +14,9 @@ const Intro = () => {
     return (
         <>
             <section className="couple-section section-padding" id="couple">
-                <div className="shape_1"><Image src={require('../assets/images/rosa1.png')} className="img-fluid" alt="side-img" width="100%" /></div>
 
                 <Container>
+                    <div className="shape_1"><Image src={require('../assets/images/esquina2.png')} className="img-fluid" alt="side-img" width="100%" /></div>
                     <div className="row align-items-center z_index">
                         <div className="col-lg-3 text-center text-lg-end bride wow fadeInDown mt-5" data-wow-delay="0.1s" data-wow-duration="1.2s" >
                             <p className='mt-4'>¡Llegó el día!</p>
@@ -36,6 +36,11 @@ const Intro = () => {
                             <p>Emilia Conde Flores</p>
                             <p>Jorge Campos Fuentes <FaCross /></p>                            
                         </div>
+                        <div className="col-lg-6 text-center wow fadeInDown" data-wow-delay="0.1s" data-wow-duration="1.2s">
+                            <div className="middle-couple-pic">
+                                <Image src={require('../assets/images/campi10.png')} alt="image" className='img-fluid' />
+                            </div>
+                        </div>                        
                     </div>
                 </Container>
             </section>

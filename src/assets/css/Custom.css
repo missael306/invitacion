@@ -1,3 +1,47 @@
 .customLetter{
     
 }
+
+.shape_1{
+    z-index: -99;
+    width: 60vw;
+    padding: 0;
+}
+
+.letter-16{
+    font-size: 4rem;
+}
+
+.letter-span{
+    font-size: 10rem;
+}
+
+.button{
+    border: solid #972626 2px;
+    border-radius: 10px;
+    width: 75%;
+    margin: 0 auto;
+    background-color: #972626;
+    color: white;
+    font-weight: bold;
+}
+
+.w-60{
+    display: block !important;
+    width: 40%;
+    margin: 50px auto !important;
+}
+
+#story{    
+    background-image: url('../images/textura1.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;         
+}
+
+#story2{    
+    background-image: url('../images/newspapper.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;         
+}
