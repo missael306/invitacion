@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "dc384c8de21fe701aa39",
+    "revision": "e08771d35bef16a13b09",
     "url": "/prueba/static/css/main.82d7282b.chunk.css"
   },
   {
-    "revision": "dc384c8de21fe701aa39",
-    "url": "/prueba/static/js/main.dc384c8d.chunk.js"
+    "revision": "e08771d35bef16a13b09",
+    "url": "/prueba/static/js/main.e08771d3.chunk.js"
   },
   {
     "revision": "6cc1611be4aaeb19ebc9",
@@ -176,16 +176,16 @@ self.__precacheManifest = [
     "url": "/prueba/static/media/Sheet.c963caca.jpeg"
   },
   {
+    "revision": "ec8a07fa12c5f564a12d67979b11be1e",
+    "url": "/prueba/static/media/Donalia.ec8a07fa.otf"
+  },
+  {
     "revision": "b8a493e2360f711eda465ec9ce8f12f4",
     "url": "/prueba/static/media/Donalia.b8a493e2.ttf"
   },
   {
     "revision": "3a5b6daa10fa25fa2cadaac5c503b906",
     "url": "/prueba/static/media/eyesome-duo-script.3a5b6daa.otf"
-  },
-  {
-    "revision": "ec8a07fa12c5f564a12d67979b11be1e",
-    "url": "/prueba/static/media/Donalia.ec8a07fa.otf"
   },
   {
     "revision": "50afdff29b556b3a211eab11660a9cc4",
@@ -196,7 +196,7 @@ self.__precacheManifest = [
     "url": "/prueba/static/media/newspapper.f07f0a8f.png"
   },
   {
-    "revision": "05a52060853ef994134e366b6978890a",
+    "revision": "ff821b211aaf05eb33f3558bbc45fcfa",
     "url": "/prueba/index.html"
   }
 ];
