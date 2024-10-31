@@ -9,6 +9,7 @@ import ImgBanner from '../components/Image_banner';
 import OurLovestory from '../components/OurLove_story';
 import Gallery from '../components/Gallery';
 import RSVP from '../components/Rsvp';
+import Presentation from '../components/Presentation.jsx';
 import '../assets/css/animate.min.css';
 import '../assets/css/flaticon.css';
 import '../assets/css/themify.css';
@@ -21,7 +22,12 @@ const Home = () =>{
     return(
         <>
             <Loader loader={true}/>
-            <Fragment>            
+            <Fragment>
+                <Presentation/>
+            </Fragment>
+            {/* <Loader loader={true}/>
+            <Fragment>   
+                <Presentation/>         
                 <Header/>
                 <Banner/>
                 <Intro/>
@@ -30,8 +36,8 @@ const Home = () =>{
                 <RSVP/>
                 <Gallery/>
                 <Address/>
-                <Footer/>                       
-            </Fragment>
+                <Footer/>                      
+            </Fragment> */}
         </>
     )
 }

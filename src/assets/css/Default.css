@@ -26,7 +26,8 @@ body{
   color: #848892;
   background-color: #fff;
   scroll-behavior: smooth;
-  overflow-x: hidden !important
+  overflow-x: hidden !important;
+  background-image: url('../../assets/images/Sheet.jpeg');  
 }
 section{
 	overflow: hidden;

@@ -1,0 +1,31 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.full-screen-frame {
+    display: flex; /* Utiliza flexbox para centrar */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh;
+    width: 100%;
+    border: none;
+}
+
+.letter{    
+    cursor: pointer;
+    width: 70vw;
+}
+
+.header-presentation{
+    background-image: url('../../assets/images/intro/rosas.jpg');
+}
+
+.letter {
+    transition: transform 1s ease-in-out; /* Transición solo para la posición */
+}
+
+.letter.move-to-bottom {
+    transform: translateY(30vh); /* Mueve la imagen hacia abajo */
+}
