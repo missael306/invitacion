@@ -172,16 +172,16 @@ self.__precacheManifest = [
     "url": "/prueba/static/media/themify.a1ecc3b8.woff"
   },
   {
-    "revision": "b8a493e2360f711eda465ec9ce8f12f4",
-    "url": "/prueba/static/media/Donalia.b8a493e2.ttf"
+    "revision": "c963cacabf1628b6fd52868c36f0269f",
+    "url": "/prueba/static/media/Sheet.c963caca.jpeg"
   },
   {
     "revision": "ec8a07fa12c5f564a12d67979b11be1e",
     "url": "/prueba/static/media/Donalia.ec8a07fa.otf"
   },
   {
-    "revision": "c963cacabf1628b6fd52868c36f0269f",
-    "url": "/prueba/static/media/Sheet.c963caca.jpeg"
+    "revision": "b8a493e2360f711eda465ec9ce8f12f4",
+    "url": "/prueba/static/media/Donalia.b8a493e2.ttf"
   },
   {
     "revision": "3a5b6daa10fa25fa2cadaac5c503b906",
