@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "961ef8c8df6d61945d95",
+    "revision": "672eacd98a4087abc316",
     "url": "/prueba/static/css/main.16eb666b.chunk.css"
   },
   {
-    "revision": "961ef8c8df6d61945d95",
-    "url": "/prueba/static/js/main.961ef8c8.chunk.js"
+    "revision": "672eacd98a4087abc316",
+    "url": "/prueba/static/js/main.672eacd9.chunk.js"
   },
   {
     "revision": "fe37a9827a77855363d0",
@@ -164,24 +164,24 @@ self.__precacheManifest = [
     "url": "/prueba/static/media/themify.a1ecc3b8.woff"
   },
   {
-    "revision": "c963cacabf1628b6fd52868c36f0269f",
-    "url": "/prueba/static/media/Sheet.c963caca.jpeg"
-  },
-  {
     "revision": "7e1390fd175af6ecbfe7ba5789e4c642",
     "url": "/prueba/static/media/write_song.7e1390fd.ttf"
-  },
-  {
-    "revision": "b8a493e2360f711eda465ec9ce8f12f4",
-    "url": "/prueba/static/media/Donalia.b8a493e2.ttf"
   },
   {
     "revision": "ec8a07fa12c5f564a12d67979b11be1e",
     "url": "/prueba/static/media/Donalia.ec8a07fa.otf"
   },
   {
+    "revision": "b8a493e2360f711eda465ec9ce8f12f4",
+    "url": "/prueba/static/media/Donalia.b8a493e2.ttf"
+  },
+  {
     "revision": "3a5b6daa10fa25fa2cadaac5c503b906",
     "url": "/prueba/static/media/eyesome-duo-script.3a5b6daa.otf"
+  },
+  {
+    "revision": "c963cacabf1628b6fd52868c36f0269f",
+    "url": "/prueba/static/media/Sheet.c963caca.jpeg"
   },
   {
     "revision": "50afdff29b556b3a211eab11660a9cc4",
@@ -192,7 +192,7 @@ self.__precacheManifest = [
     "url": "/prueba/static/media/newspapper.f07f0a8f.png"
   },
   {
-    "revision": "e520164b0dcc48a8ce0db4673e3fb07b",
+    "revision": "b137a73f0d782b63c943c1597900db4d",
     "url": "/prueba/index.html"
   }
 ];
