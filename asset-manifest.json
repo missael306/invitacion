@@ -1,7 +1,7 @@
 {
   "main.css": "/prueba/static/css/main.64b491ef.chunk.css",
-  "main.js": "/prueba/static/js/main.4dc67b88.chunk.js",
-  "main.js.map": "/prueba/static/js/main.4dc67b88.chunk.js.map",
+  "main.js": "/prueba/static/js/main.dd30257e.chunk.js",
+  "main.js.map": "/prueba/static/js/main.dd30257e.chunk.js.map",
   "static/css/1.5d31d82d.chunk.css": "/prueba/static/css/1.5d31d82d.chunk.css",
   "static/js/1.6f1fda23.chunk.js": "/prueba/static/js/1.6f1fda23.chunk.js",
   "static/js/1.6f1fda23.chunk.js.map": "/prueba/static/js/1.6f1fda23.chunk.js.map",
@@ -39,11 +39,11 @@
   "static/media/letter_open.png": "/prueba/static/media/letter_open.7ad87cf5.png",
   "static/media/flaticon.css": "/prueba/static/media/flaticon.245ef08d.woff2",
   "static/media/themify.css": "/prueba/static/media/themify.a1ecc3b8.woff",
-  "static/media/Default.css": "/prueba/static/media/Sheet.c963caca.jpeg",
+  "static/media/Default.css": "/prueba/static/media/eyesome-duo-script.3a5b6daa.otf",
   "static/media/Custom.css": "/prueba/static/media/newspapper.f07f0a8f.png",
-  "static/css/1.5d31d82d.chunk.css.map": "/prueba/static/css/1.5d31d82d.chunk.css.map",
   "static/css/main.64b491ef.chunk.css.map": "/prueba/static/css/main.64b491ef.chunk.css.map",
+  "static/css/1.5d31d82d.chunk.css.map": "/prueba/static/css/1.5d31d82d.chunk.css.map",
   "index.html": "/prueba/index.html",
-  "precache-manifest.70f8854159383f6bc1d121c7bb327f4b.js": "/prueba/precache-manifest.70f8854159383f6bc1d121c7bb327f4b.js",
+  "precache-manifest.6045cb597b7b07c1d966948d88194bde.js": "/prueba/precache-manifest.6045cb597b7b07c1d966948d88194bde.js",
   "service-worker.js": "/prueba/service-worker.js"
 }
