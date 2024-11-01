@@ -1,55 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "5b6cfb14844da494b5e8",
-    "url": "/prueba/static/css/main.203903ba.chunk.css"
+    "revision": "5081b78546bf33cd3241",
+    "url": "/prueba/static/css/main.233bd389.chunk.css"
   },
   {
-    "revision": "5b6cfb14844da494b5e8",
-    "url": "/prueba/static/js/main.5b6cfb14.chunk.js"
+    "revision": "5081b78546bf33cd3241",
+    "url": "/prueba/static/js/main.5081b785.chunk.js"
   },
   {
-    "revision": "936f727b24780f7e46d8",
-    "url": "/prueba/static/css/1.503fccaa.chunk.css"
+    "revision": "37b48d871ee3f5ee46ec",
+    "url": "/prueba/static/css/1.2ad1f598.chunk.css"
   },
   {
-    "revision": "936f727b24780f7e46d8",
-    "url": "/prueba/static/js/1.936f727b.chunk.js"
+    "revision": "37b48d871ee3f5ee46ec",
+    "url": "/prueba/static/js/1.37b48d87.chunk.js"
   },
   {
     "revision": "4758f190ae3cf4f624d8",
     "url": "/prueba/static/js/runtime~main.4758f190.js"
-  },
-  {
-    "revision": "86a6a7a60bbbe139df9121e40bd6d39d",
-    "url": "/prueba/static/media/5.86a6a7a6.jpg"
-  },
-  {
-    "revision": "86a6a7a60bbbe139df9121e40bd6d39d",
-    "url": "/prueba/static/media/6.86a6a7a6.jpg"
-  },
-  {
-    "revision": "86a6a7a60bbbe139df9121e40bd6d39d",
-    "url": "/prueba/static/media/7.86a6a7a6.jpg"
-  },
-  {
-    "revision": "86a6a7a60bbbe139df9121e40bd6d39d",
-    "url": "/prueba/static/media/8.86a6a7a6.jpg"
-  },
-  {
-    "revision": "9e471a461dff9b4cf7d2fa46484e0864",
-    "url": "/prueba/static/media/1.9e471a46.jpg"
-  },
-  {
-    "revision": "86a6a7a60bbbe139df9121e40bd6d39d",
-    "url": "/prueba/static/media/2.86a6a7a6.jpg"
-  },
-  {
-    "revision": "86a6a7a60bbbe139df9121e40bd6d39d",
-    "url": "/prueba/static/media/3.86a6a7a6.jpg"
-  },
-  {
-    "revision": "86a6a7a60bbbe139df9121e40bd6d39d",
-    "url": "/prueba/static/media/4.86a6a7a6.jpg"
   },
   {
     "revision": "fd92282408b171add5aa09cbf8d7dc80",
@@ -72,12 +40,16 @@ self.__precacheManifest = [
     "url": "/prueba/static/media/9.fd922824.jpg"
   },
   {
-    "revision": "b568ca81207029d39ae7651f8ca1fb60",
-    "url": "/prueba/static/media/newspapper.b568ca81.png"
-  },
-  {
     "revision": "50afdff29b556b3a211eab11660a9cc4",
     "url": "/prueba/static/media/textura1.50afdff2.png"
+  },
+  {
+    "revision": "57b0f8d497cf21e6460519e0ca1695eb",
+    "url": "/prueba/static/media/esquina.57b0f8d4.png"
+  },
+  {
+    "revision": "b568ca81207029d39ae7651f8ca1fb60",
+    "url": "/prueba/static/media/newspapper.b568ca81.png"
   },
   {
     "revision": "bf5a08c9930b3c3924e34b4113dae3ec",
@@ -102,10 +74,6 @@ self.__precacheManifest = [
   {
     "revision": "0a109c374ff2793421f1522d6dc99568",
     "url": "/prueba/static/media/campi10.0a109c37.png"
-  },
-  {
-    "revision": "a8b2ec3d99e00b3d6418a0d519d709c8",
-    "url": "/prueba/static/media/footer-logo.a8b2ec3d.png"
   },
   {
     "revision": "02714c4b56a2725c656fdb2f648ba59a",
@@ -180,27 +148,27 @@ self.__precacheManifest = [
     "url": "/prueba/static/media/themify.a1ecc3b8.woff"
   },
   {
-    "revision": "7e1390fd175af6ecbfe7ba5789e4c642",
-    "url": "/prueba/static/media/write_song.7e1390fd.ttf"
+    "revision": "c963cacabf1628b6fd52868c36f0269f",
+    "url": "/prueba/static/media/Sheet.c963caca.jpeg"
   },
   {
     "revision": "b8a493e2360f711eda465ec9ce8f12f4",
     "url": "/prueba/static/media/Donalia.b8a493e2.ttf"
   },
   {
-    "revision": "ec8a07fa12c5f564a12d67979b11be1e",
-    "url": "/prueba/static/media/Donalia.ec8a07fa.otf"
-  },
-  {
     "revision": "3a5b6daa10fa25fa2cadaac5c503b906",
     "url": "/prueba/static/media/eyesome-duo-script.3a5b6daa.otf"
   },
   {
-    "revision": "c963cacabf1628b6fd52868c36f0269f",
-    "url": "/prueba/static/media/Sheet.c963caca.jpeg"
+    "revision": "7e1390fd175af6ecbfe7ba5789e4c642",
+    "url": "/prueba/static/media/write_song.7e1390fd.ttf"
   },
   {
-    "revision": "fe942461d3a8abfad32192fc74fa58fe",
+    "revision": "ec8a07fa12c5f564a12d67979b11be1e",
+    "url": "/prueba/static/media/Donalia.ec8a07fa.otf"
+  },
+  {
+    "revision": "ff790a339e1b26390917cfa776f4276d",
     "url": "/prueba/index.html"
   }
 ];
