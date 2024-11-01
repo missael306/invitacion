@@ -40,12 +40,12 @@ self.__precacheManifest = [
     "url": "/static/media/9.fd922824.jpg"
   },
   {
-    "revision": "57b0f8d497cf21e6460519e0ca1695eb",
-    "url": "/static/media/esquina.57b0f8d4.png"
-  },
-  {
     "revision": "50afdff29b556b3a211eab11660a9cc4",
     "url": "/static/media/textura1.50afdff2.png"
+  },
+  {
+    "revision": "57b0f8d497cf21e6460519e0ca1695eb",
+    "url": "/static/media/esquina.57b0f8d4.png"
   },
   {
     "revision": "b568ca81207029d39ae7651f8ca1fb60",
@@ -152,12 +152,12 @@ self.__precacheManifest = [
     "url": "/static/media/Donalia.b8a493e2.ttf"
   },
   {
-    "revision": "ec8a07fa12c5f564a12d67979b11be1e",
-    "url": "/static/media/Donalia.ec8a07fa.otf"
-  },
-  {
     "revision": "7e1390fd175af6ecbfe7ba5789e4c642",
     "url": "/static/media/write_song.7e1390fd.ttf"
+  },
+  {
+    "revision": "ec8a07fa12c5f564a12d67979b11be1e",
+    "url": "/static/media/Donalia.ec8a07fa.otf"
   },
   {
     "revision": "3a5b6daa10fa25fa2cadaac5c503b906",
