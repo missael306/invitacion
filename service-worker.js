@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "misquincenicole.cloud/invitacion/precache-manifest.72bb1a1ffa280845481a613a6f863deb.js"
+  "misquincenicole.cloud/invitacion/precache-manifest.c8388f8675f46d28ad211426a1a1a114.js"
 );
 
 workbox.clientsClaim();

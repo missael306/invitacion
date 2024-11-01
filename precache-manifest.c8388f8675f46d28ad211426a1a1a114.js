@@ -148,6 +148,10 @@ self.__precacheManifest = [
     "url": "misquincenicole.cloud/invitacion/static/media/themify.a1ecc3b8.woff"
   },
   {
+    "revision": "b8a493e2360f711eda465ec9ce8f12f4",
+    "url": "misquincenicole.cloud/invitacion/static/media/Donalia.b8a493e2.ttf"
+  },
+  {
     "revision": "ec8a07fa12c5f564a12d67979b11be1e",
     "url": "misquincenicole.cloud/invitacion/static/media/Donalia.ec8a07fa.otf"
   },
@@ -156,16 +160,12 @@ self.__precacheManifest = [
     "url": "misquincenicole.cloud/invitacion/static/media/write_song.7e1390fd.ttf"
   },
   {
-    "revision": "3a5b6daa10fa25fa2cadaac5c503b906",
-    "url": "misquincenicole.cloud/invitacion/static/media/eyesome-duo-script.3a5b6daa.otf"
-  },
-  {
-    "revision": "b8a493e2360f711eda465ec9ce8f12f4",
-    "url": "misquincenicole.cloud/invitacion/static/media/Donalia.b8a493e2.ttf"
-  },
-  {
     "revision": "c963cacabf1628b6fd52868c36f0269f",
     "url": "misquincenicole.cloud/invitacion/static/media/Sheet.c963caca.jpeg"
+  },
+  {
+    "revision": "3a5b6daa10fa25fa2cadaac5c503b906",
+    "url": "misquincenicole.cloud/invitacion/static/media/eyesome-duo-script.3a5b6daa.otf"
   },
   {
     "revision": "98c858b091aff71271a2ae49344007f7",
