@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "misquincenicole.cloud/invitacion/precache-manifest.c8388f8675f46d28ad211426a1a1a114.js"
+  "misquincenicole.cloud/precache-manifest.a642220ef55c390b498775e9924c73ee.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("misquincenicole.cloud/invitacion/index.html", {
+workbox.routing.registerNavigationRoute("misquincenicole.cloud/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
