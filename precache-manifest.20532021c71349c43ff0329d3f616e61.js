@@ -40,12 +40,12 @@ self.__precacheManifest = [
     "url": "/static/media/9.fd922824.jpg"
   },
   {
-    "revision": "50afdff29b556b3a211eab11660a9cc4",
-    "url": "/static/media/textura1.50afdff2.png"
-  },
-  {
     "revision": "57b0f8d497cf21e6460519e0ca1695eb",
     "url": "/static/media/esquina.57b0f8d4.png"
+  },
+  {
+    "revision": "50afdff29b556b3a211eab11660a9cc4",
+    "url": "/static/media/textura1.50afdff2.png"
   },
   {
     "revision": "b568ca81207029d39ae7651f8ca1fb60",
@@ -168,7 +168,7 @@ self.__precacheManifest = [
     "url": "/static/media/eyesome-duo-script.3a5b6daa.otf"
   },
   {
-    "revision": "60d9c9927957f24d6c70f9f7230d2375",
+    "revision": "02f291f1f25d830e37bb95197880834d",
     "url": "/index.html"
   }
 ];
