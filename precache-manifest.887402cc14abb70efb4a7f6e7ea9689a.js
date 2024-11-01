@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "fca74a4762d008279272",
-    "url": "/static/css/main.30812228.chunk.css"
+    "revision": "f327e5e82790f301b1f8",
+    "url": "/static/css/main.0b77354c.chunk.css"
   },
   {
-    "revision": "fca74a4762d008279272",
-    "url": "/static/js/main.fca74a47.chunk.js"
+    "revision": "f327e5e82790f301b1f8",
+    "url": "/static/js/main.cd2d1449.chunk.js"
   },
   {
-    "revision": "37b48d871ee3f5ee46ec",
-    "url": "/static/css/1.2ad1f598.chunk.css"
+    "revision": "42ac5946195a7306e2a5",
+    "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "37b48d871ee3f5ee46ec",
-    "url": "/static/js/1.37b48d87.chunk.js"
+    "revision": "4a7a28814cea37048182",
+    "url": "/static/css/2.a4d0e1e1.chunk.css"
   },
   {
-    "revision": "229c360febb4351a89df",
-    "url": "/static/js/runtime~main.229c360f.js"
+    "revision": "4a7a28814cea37048182",
+    "url": "/static/js/2.b622a650.chunk.js"
   },
   {
     "revision": "fd92282408b171add5aa09cbf8d7dc80",
@@ -40,16 +40,16 @@ self.__precacheManifest = [
     "url": "/static/media/9.fd922824.jpg"
   },
   {
-    "revision": "50afdff29b556b3a211eab11660a9cc4",
-    "url": "/static/media/textura1.50afdff2.png"
+    "revision": "b568ca81207029d39ae7651f8ca1fb60",
+    "url": "/static/media/newspapper.b568ca81.png"
   },
   {
     "revision": "57b0f8d497cf21e6460519e0ca1695eb",
     "url": "/static/media/esquina.57b0f8d4.png"
   },
   {
-    "revision": "b568ca81207029d39ae7651f8ca1fb60",
-    "url": "/static/media/newspapper.b568ca81.png"
+    "revision": "50afdff29b556b3a211eab11660a9cc4",
+    "url": "/static/media/textura1.50afdff2.png"
   },
   {
     "revision": "bf5a08c9930b3c3924e34b4113dae3ec",
@@ -148,12 +148,8 @@ self.__precacheManifest = [
     "url": "/static/media/themify.a1ecc3b8.woff"
   },
   {
-    "revision": "c963cacabf1628b6fd52868c36f0269f",
-    "url": "/static/media/Sheet.c963caca.jpeg"
-  },
-  {
-    "revision": "ec8a07fa12c5f564a12d67979b11be1e",
-    "url": "/static/media/Donalia.ec8a07fa.otf"
+    "revision": "3a5b6daa10fa25fa2cadaac5c503b906",
+    "url": "/static/media/eyesome-duo-script.3a5b6daa.otf"
   },
   {
     "revision": "b8a493e2360f711eda465ec9ce8f12f4",
@@ -164,11 +160,15 @@ self.__precacheManifest = [
     "url": "/static/media/write_song.7e1390fd.ttf"
   },
   {
-    "revision": "3a5b6daa10fa25fa2cadaac5c503b906",
-    "url": "/static/media/eyesome-duo-script.3a5b6daa.otf"
+    "revision": "ec8a07fa12c5f564a12d67979b11be1e",
+    "url": "/static/media/Donalia.ec8a07fa.otf"
   },
   {
-    "revision": "4ce470ee0f1db0454b0c1b39f0a9658c",
+    "revision": "c963cacabf1628b6fd52868c36f0269f",
+    "url": "/static/media/Sheet.c963caca.jpeg"
+  },
+  {
+    "revision": "e89aeae497b1060499a9d0dc7209e823",
     "url": "/index.html"
   }
 ];
