@@ -148,20 +148,20 @@ self.__precacheManifest = [
     "url": "/static/media/themify.a1ecc3b8.woff"
   },
   {
-    "revision": "ec8a07fa12c5f564a12d67979b11be1e",
-    "url": "/static/media/Donalia.ec8a07fa.otf"
-  },
-  {
     "revision": "b8a493e2360f711eda465ec9ce8f12f4",
     "url": "/static/media/Donalia.b8a493e2.ttf"
   },
   {
-    "revision": "7e1390fd175af6ecbfe7ba5789e4c642",
-    "url": "/static/media/write_song.7e1390fd.ttf"
+    "revision": "ec8a07fa12c5f564a12d67979b11be1e",
+    "url": "/static/media/Donalia.ec8a07fa.otf"
   },
   {
     "revision": "3a5b6daa10fa25fa2cadaac5c503b906",
     "url": "/static/media/eyesome-duo-script.3a5b6daa.otf"
+  },
+  {
+    "revision": "7e1390fd175af6ecbfe7ba5789e4c642",
+    "url": "/static/media/write_song.7e1390fd.ttf"
   },
   {
     "revision": "c963cacabf1628b6fd52868c36f0269f",
