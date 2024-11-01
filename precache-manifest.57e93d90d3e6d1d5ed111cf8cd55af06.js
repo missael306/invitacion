@@ -152,12 +152,12 @@ self.__precacheManifest = [
     "url": "/static/media/Donalia.b8a493e2.ttf"
   },
   {
-    "revision": "7e1390fd175af6ecbfe7ba5789e4c642",
-    "url": "/static/media/write_song.7e1390fd.ttf"
-  },
-  {
     "revision": "ec8a07fa12c5f564a12d67979b11be1e",
     "url": "/static/media/Donalia.ec8a07fa.otf"
+  },
+  {
+    "revision": "7e1390fd175af6ecbfe7ba5789e4c642",
+    "url": "/static/media/write_song.7e1390fd.ttf"
   },
   {
     "revision": "3a5b6daa10fa25fa2cadaac5c503b906",
@@ -168,7 +168,7 @@ self.__precacheManifest = [
     "url": "/static/media/Sheet.c963caca.jpeg"
   },
   {
-    "revision": "d96b9be5e4e3a7f2e795a1319dd7f0a6",
+    "revision": "4ce470ee0f1db0454b0c1b39f0a9658c",
     "url": "/index.html"
   }
 ];
