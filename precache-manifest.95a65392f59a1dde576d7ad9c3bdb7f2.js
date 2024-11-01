@@ -160,12 +160,12 @@ self.__precacheManifest = [
     "url": "/static/media/Donalia.b8a493e2.ttf"
   },
   {
-    "revision": "7e1390fd175af6ecbfe7ba5789e4c642",
-    "url": "/static/media/write_song.7e1390fd.ttf"
-  },
-  {
     "revision": "3a5b6daa10fa25fa2cadaac5c503b906",
     "url": "/static/media/eyesome-duo-script.3a5b6daa.otf"
+  },
+  {
+    "revision": "7e1390fd175af6ecbfe7ba5789e4c642",
+    "url": "/static/media/write_song.7e1390fd.ttf"
   },
   {
     "revision": "02f291f1f25d830e37bb95197880834d",
