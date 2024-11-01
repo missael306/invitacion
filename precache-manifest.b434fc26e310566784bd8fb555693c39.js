@@ -40,16 +40,16 @@ self.__precacheManifest = [
     "url": "/static/media/9.fd922824.jpg"
   },
   {
+    "revision": "50afdff29b556b3a211eab11660a9cc4",
+    "url": "/static/media/textura1.50afdff2.png"
+  },
+  {
     "revision": "b568ca81207029d39ae7651f8ca1fb60",
     "url": "/static/media/newspapper.b568ca81.png"
   },
   {
     "revision": "57b0f8d497cf21e6460519e0ca1695eb",
     "url": "/static/media/esquina.57b0f8d4.png"
-  },
-  {
-    "revision": "50afdff29b556b3a211eab11660a9cc4",
-    "url": "/static/media/textura1.50afdff2.png"
   },
   {
     "revision": "bf5a08c9930b3c3924e34b4113dae3ec",
@@ -148,16 +148,16 @@ self.__precacheManifest = [
     "url": "/static/media/themify.a1ecc3b8.woff"
   },
   {
-    "revision": "3a5b6daa10fa25fa2cadaac5c503b906",
-    "url": "/static/media/eyesome-duo-script.3a5b6daa.otf"
+    "revision": "7e1390fd175af6ecbfe7ba5789e4c642",
+    "url": "/static/media/write_song.7e1390fd.ttf"
   },
   {
     "revision": "b8a493e2360f711eda465ec9ce8f12f4",
     "url": "/static/media/Donalia.b8a493e2.ttf"
   },
   {
-    "revision": "7e1390fd175af6ecbfe7ba5789e4c642",
-    "url": "/static/media/write_song.7e1390fd.ttf"
+    "revision": "3a5b6daa10fa25fa2cadaac5c503b906",
+    "url": "/static/media/eyesome-duo-script.3a5b6daa.otf"
   },
   {
     "revision": "ec8a07fa12c5f564a12d67979b11be1e",
